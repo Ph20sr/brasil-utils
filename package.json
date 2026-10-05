@@ -1,0 +1,17 @@
+{
+  "name": "brasil-utils",
+  "version": "1.0.0",
+  "description": "Validação e formatação de documentos e dados brasileiros: CPF, CNPJ (inclusive alfanumérico), telefone, CEP e moeda. Zero dependências.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "types": "./src/index.d.ts",
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["cpf", "cnpj", "cnpj-alfanumerico", "cep", "telefone", "brasil", "validacao", "brl"],
+  "license": "MIT"
+}
